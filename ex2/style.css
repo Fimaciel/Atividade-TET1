@@ -48,3 +48,71 @@ img {
   text-decoration: none;
 }
 
+.check {
+    color: red;
+    margin-left: 5px;
+}
+.ok {
+	color : green;
+	margin-left: 5px;
+}
+
+section div h2 {
+    color: black;
+}
+
+.texto-vermelho + ul {
+    margin-top: 20px;
+}
+
+.texto-vermelho {
+    color: red;
+}
+#destaque {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+.container p {
+    font-style: italic;
+}
+
+a:link {
+    color: blue;
+}   
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+input{
+    width: 50%;
+}
+input:invalid {
+    background-color: #ba0707;
+}
+
+input:valid {
+    
+    background-color: #91f5bd;
+}
+
+fieldset {
+    background-color: #F5F5F5;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+}
+
+input[type="text"]::placeholder {
+        color: #999999;
+        font-style: italic;
+    }
